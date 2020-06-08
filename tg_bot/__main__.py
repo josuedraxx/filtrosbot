@@ -18,23 +18,23 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-*Hello* {},*My Name is* *{}*! 
+*Hola* {}, *Mi nombre es* *{}*! 
 
-```You You Can Add any kind of Filters to This Bot!```
+```Puede agregar a su grupo contacte a mi creador!```
 
-*Channel:© @DX_Botz*
+*Canal: @Locopelis*
 
-/help for more details..
+/help para más detalles..
 """
 
 HELP_STRINGS = """
-Hello! my name *{}*.
+Hola! Soy *{}*.
 
-*Main Available Commands* are Below:
+*Los principales comandos están a continuación:
 
-All of the following commands  / can  be used...
+Los comados se pueden utilizar con  /
 
-And the following:
+Presiona los siguientes botones para ver los comandos:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nഈ പറഞ്ഞിരിക്കുന്ന commandകൾ എല്ലാം  / അല്ലെങ്കിൽ ! വെച്ച് ഉപയോഗിക്കാവുന്നതാണ്...\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
